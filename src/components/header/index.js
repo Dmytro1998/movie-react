@@ -1,7 +1,7 @@
 import React from "react";
 import "../header/index.css"
-import { Home} from "../Home";
-import { BrowserRouter,  Route, Switch, NavLink } from 'react-router-dom';
+
+import { BrowserRouter, NavLink } from 'react-router-dom';
 
 
 export class Header extends React.Component {
@@ -16,12 +16,15 @@ export class Header extends React.Component {
             <li><NavLink to="/about" activeClassName ="selected"className ="navigation-item-rest">About</NavLink></li>
             <li><NavLink to="/contact" activeClassName ="selected"className ="navigation-item-rest">Contact</NavLink></li>
          </nav>
-         <Switch>
-          <Route path="/home">
-            <Home/>
-           </Route> 
+
+         <div className ="search-account-login">
+           <button><img src = "../header/images/search-icon.png" alt = "search"></img></button>
+           <button><img src = "../header/images/account-icon.png" alt = "account"></img></button>
         
-        </Switch> 
+
+           
+            </div>
+      
          </BrowserRouter>
         </div>
      

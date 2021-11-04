@@ -22,13 +22,14 @@
   color: rgba(58, 58, 58, 0.8);
 }
 .header {
+  position: fixed;
   display: flex;
   padding: 20px;
   background-color: #e5e5e5;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  width: 100;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -59,6 +60,6 @@ li {
 .selected {
   background-color: aquamarine;
 }
-.home-page {
+/* .home-page {
   margin-top: 300px;
-}
+} */
