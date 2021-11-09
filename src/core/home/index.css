@@ -20,6 +20,7 @@
   padding: 35px;
   margin-top: 100px;
   z-index: 4;
+  height: fit-content;
 }
 .help-you-to-make :first-child {
   font-family: "Poppins", sans-serif;
@@ -38,6 +39,7 @@
   line-height: 34px;
   letter-spacing: 0.01em;
   color: #4b4b4b;
+  font-family: "Poppins", sans-serif;
 }
 
 .products-btn {
@@ -69,9 +71,4 @@ p {
   background: #ffecd6;
   border-radius: 8px;
   margin-top: 100px;
-}
-
-.slider {
-  height: 300px;
-  width: 400px;
 }

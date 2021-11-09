@@ -1,12 +1,16 @@
+
+
 import React from "react";
-import "../Home/index.css"
-import SimpleSlider from "../../slider";
+import "../home/index.css"
+import TrustedComoanies from "../layoutapp/trusted";
 
 
 
-export class Home extends React.Component {
+
+ class Home extends React.Component {
     render() {
       return (
+          <>
      <div className= "home-page">
        <div className = "help-you-to-make">
 <h1>Help you to Make modern Funiture</h1>
@@ -15,7 +19,7 @@ export class Home extends React.Component {
        </div>
        <div className = "yellow-background">
          <div className ="slider">
-           <SimpleSlider/>
+           
 
 
 
@@ -23,12 +27,10 @@ export class Home extends React.Component {
 
 
        </div>
-         
-
-
-     </div>
-      
-     
+         </div>
+      <TrustedComoanies/>
+     </>
       );
     }
   }
+  export default Home

@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-
+body {
+  margin: 0px;
+}
 .logo {
   display: flex;
+}
+.main-link {
+  text-decoration: none;
 }
 .logo :first-child {
   font-family: "Poppins", sans-serif;
@@ -21,15 +26,15 @@
   letter-spacing: 0.01em;
   color: rgba(58, 58, 58, 0.8);
 }
-.header {
+header {
   position: fixed;
   display: flex;
   padding: 20px;
   background-color: #e5e5e5;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
-  width: 100%;
+  z-index: 5;
+  width: 100vw;
 }
 nav {
   display: flex;
@@ -57,9 +62,8 @@ li {
   font-size: 20px;
   line-height: 34px;
 }
-.selected {
-  background-color: aquamarine;
+.account {
+  border: none;
+  margin-right: 30px;
+  background-color: #e5e5e5;
 }
-/* .home-page {
-  margin-top: 300px;
-} */
